@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header-titre{
+    background-color: aqua;
+    height: 50%;
+}
+
+nav{
+    margin-left: 40%;
+    margin-top: -2%;
+}
+
+nav, ul, li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px;
+}
+
+ul, li, a{
+    color: #3700cf;
+    letter-spacing: 1px;
+}
+
+ul, li, a:hover{
+    color: #c20030;
+}
+
+.menu li{
+    float: left;
+    padding: 15px;
+}
+
+.menu li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.form1{
+    padding: 5px;
+    text-align: center;
+    float: right;
+}
+
+.input-searh[type="search"]{
+    font-size: 15px;
+    border-radius: 5px;
+}
+.submit1{
+    font-size: 15px;
+    padding: 0 30px;
+    color: #fff;
+    background: #000;
+    border-radius: 5px;
+}
+
+.titrePrincipale{
+    margin-top: -5%;
+    font-size: 2em;
+}
+
+img{
+    width: 100%;
+}
+
+/* peid de page */
+footer{
+    background-color: aqua;
+    height: 50px;
+}
